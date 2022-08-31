@@ -8,5 +8,9 @@ mkdir - create directory
 mv - move file
 rm - remove file
 rmdir - remove directory
-cd .. - change directory to previous
+cd - - change directory to previous
+ls -la . .. - list all files in multiple directories
+file - show file type
+ln -s - create symbolic link
+cp -rua * - copy all files with given extension
 
