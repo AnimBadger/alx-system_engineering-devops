@@ -4,4 +4,9 @@ cd ~ - changes working directory to home
 ls -l - list directory content in long format
 ls -la - list directory content with hidden files
 ls -lan - list all directory contents with user and group IDs displayed numerically
+mkdir - create directory
+mv - move file
+rm - remove file
+rmdir - remove directory
+cd .. - change directory to previous
 
