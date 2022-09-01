@@ -9,4 +9,6 @@ chmod ugo+x - give all execute permission
 chmod 007 - give only other all permissions
 chmod 753 -change permissions
 chmod --reference=refile - use another file permissions
-chmod -R - cahnge files and directories permission
+chmod -R - change files and directories permission
+sudo chmod -R +111 * - make all files executable
+chgrp - change group owner
