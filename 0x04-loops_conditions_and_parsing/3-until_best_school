@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# bash script to print text using until
+
+index=0
+
+until [ $index -eq 10 ]
+do
+    echo "Best School"
+    ((index++))
+done

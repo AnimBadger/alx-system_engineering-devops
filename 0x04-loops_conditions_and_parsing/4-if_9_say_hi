@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# script to utilize while loop and if statement
+
+index=0
+
+while [ $index -lt 11 ]
+do
+    if [ $index -eq 9 ]
+    then
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    (( index++ ))
+done

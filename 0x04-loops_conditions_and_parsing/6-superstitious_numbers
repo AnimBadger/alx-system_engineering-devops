@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# script to utilize switch cases
+
+index=1
+
+while [ $index -lt 21 ]
+do
+    case $index in
+    4)
+    echo "$index"
+    echo "bad luck from China" ;;
+    9)
+    echo "$index"
+    echo "bad luck from Japan" ;;
+    17)
+    echo "$index"
+    echo "bad luck from Italy" ;;
+    *)
+    echo "$index"
+    esac
+    ((index++))
+done

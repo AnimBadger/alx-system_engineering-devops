@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script to automatically connect to ssh
+
+ssh -i ~/.ssh/school ubuntu@54.227.199.223

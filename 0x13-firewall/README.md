@@ -1,0 +1,1 @@
+## Configuring of firewall in server with ufw
